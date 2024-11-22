@@ -27,6 +27,8 @@ DFS is generally better to use for solving sudoku puzzles because DFS explores d
 
 2. How did the choice of data structures (like the Stack for DFS and Queue for BFS) impact the implementation and functionality of the algorithms? Are there alternative data structures or design patterns that could have been used to achieve the same objectives?
 
-
+DFS is much less effective for more complex sodoku puzzles when compared to BFS. However, DFS is much more human friendly and easier to understand then BFS is, which can sometimes make it more desirable for implementation.
 
 3. Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be applied to real-world problem-solving or optimization challenges?
+
+A game like minesweeper solver can be adapted into the sudoku solver becauses both need a lot of memorization to know where the solved pieces are and understanding the rules is very important. It can solve real world issues such as traffic where we recognize patterns in traffic and create an alorithm that optimizes traffic lights or something else that can reduce the amount of traffic.
